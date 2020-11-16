@@ -5,6 +5,7 @@
  workflows:
    my-workflow:
      jobs:
+       - checkout
        - run-tests
 #    nightly:
 #     triggers:
