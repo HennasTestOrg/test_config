@@ -5,7 +5,6 @@
  workflows:
    my-workflow:
      jobs:
-       - checkout
        - run-tests
 #    nightly:
 #     triggers:
@@ -35,4 +34,5 @@
 #        - image: cimg/base:2020.01
 #      steps:
 #        - run: echo "bye world. This is a scheduled workflow/job"
-#       #test
+# 
+     
